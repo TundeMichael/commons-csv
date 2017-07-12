@@ -1,6 +1,6 @@
 dependencies:
   override:
-    - mvn -T 4 install -DskipTests=true
+    - mvn -T 4 install -Dmaven.test.skip=true
 
 test:
   override:
