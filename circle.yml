@@ -1,7 +1,11 @@
 dependencies:
+  pre:
+    - rm -rf rm -rf ~/.m2/repository
   override:
     - mvn -T 4 install -Dmaven.test.skip=true
 
 test:
   override:
     - mvn package
+    
+    
