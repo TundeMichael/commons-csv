@@ -6,6 +6,6 @@ dependencies:
 
 test:
   override:
-    - mvn package
+    - mvn package -DskipTests=true
     
     
